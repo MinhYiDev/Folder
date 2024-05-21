@@ -1,0 +1,6 @@
+To fix: nano ~/.inputrc and add the text set bell-style none or set bell-style audible. Press Ctrl + O and Ctrl + X to Save and Exit.
+
+I found this behaviour to be really distracting/disurbing.
+The regular Git Bash terminal does exhibit this behaviour, though I can confirm that /c/Program Files/Git/etc/.inputrc does contain set bell-style visible (and that command is not overwritten by anything in .inputrc.
+
+Note that set bell-style audible does not give a ping sound in Git Bash in Windows Terminal, but it does do so in regular Git Bash.
